@@ -14,17 +14,23 @@
 **/
 let arr = [];
 const N = parseInt(readline());
+
 for (let i = 0; i < N; i++) {
     // read an initial array
     arr.push(parseInt(readline()));
 }
 
 let min = 10000; // set Min
-arr.sort(); // sort the initial array
+arr.sort(function compareNumeric(a, b) {
+    // sort the initial array
+  if (a > b) return 1;
+  if (a < b) return -1;
+});
+
 for (let i = 0; i < N; i++) {
     // look for a new Min
-    if (Math.abs(arr[i + 1] - arr[i]) < min) {
-        min = Math.abs(arr[i + 1] - arr[i]);
+    if (Math.abs(arr[i] - arr[i + 1]) < min) {
+        min = Math.abs(arr[i] - arr[i + 1]);
     }
 }
 

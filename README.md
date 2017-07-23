@@ -6,3 +6,5 @@ My solutions for https://www.codingame.com
 [(easy) ASCII Art.js]((easy)%20ASCII%20Art.js) : [Description](https://www.codingame.com/training/easy/ascii-art)
 
 [(easy) Chuck Norris.js]((easy)%20Chuck%20Norris.js) : [Description](https://www.codingame.com/training/easy/chuck-norris)
+
+[(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals)

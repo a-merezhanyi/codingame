@@ -7,4 +7,6 @@ My solutions for https://www.codingame.com
 
 [(easy) Chuck Norris.js]((easy)%20Chuck%20Norris.js) : [Description](https://www.codingame.com/training/easy/chuck-norris)
 
-[(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals)
+[(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/defibrillators)
+
+[(easy) Horse Racing Duals.js]((easy)%20Horse%20Racing%20Duals.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals)

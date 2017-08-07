@@ -10,3 +10,5 @@ My solutions for https://www.codingame.com
 [(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/defibrillators)
 
 [(easy) Horse Racing Duals.js]((easy)%20Horse%20Racing%20Duals.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals)
+
+[(easy) MIME Type.js]((easy)%20MIME%20Type.js) : [Description](https://www.codingame.com/training/easy/mime-type)

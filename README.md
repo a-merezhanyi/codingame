@@ -12,3 +12,5 @@ My solutions for https://www.codingame.com
 [(easy) Horse Racing Duals.js]((easy)%20Horse%20Racing%20Duals.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals)
 
 [(easy) MIME Type.js]((easy)%20MIME%20Type.js) : [Description](https://www.codingame.com/training/easy/mime-type)
+
+[(easy) Mars Lander - Episode 1.js]((easy)%20Mars%20Lander%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/mars-lander-episode-1)

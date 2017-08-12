@@ -16,3 +16,5 @@ My solutions for https://www.codingame.com
 [(easy) Mars Lander - Episode 1.js]((easy)%20Mars%20Lander%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/mars-lander-episode-1)
 
 [(easy) Onboarding.js]((easy)%20Onboarding.js) : [Description](https://www.codingame.com/training/easy/onboarding)
+
+[(easy) Power of Thor - Episode 1.js]((easy)%20Power%20of%20Thor%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/power-of-thor-episode-1)

@@ -14,65 +14,65 @@
  * In this first level, you just have to get familiar with how the tunnel
  * works: your goal is simply to predict Indiana movements within this tunnel.
  **/
- let inputs = readline().split(' ');
- const W = parseInt(inputs[0]); // Number of columns.
- const H = parseInt(inputs[1]); // Number of rows.
- const maze = []; // Maze
- 
- for (let i = 0; i < H; i++) {
-     // Represents a line in the grid and contains W integers.
-     // Each integer represents one room of a given type.
-     const LINE = readline();
-     maze.push(LINE);
- 
- }
- // The coordinate along the X axis of the exit
- // (not useful for this first mission, but must be read).
- const EX = parseInt(readline());
- 
- // game loop
- while (true) {
-     inputs = readline().split(' ');
-     const XI = parseInt(inputs[0]);
-     const YI = parseInt(inputs[1]);
-     const POS = inputs[2];
- 
-     const currentLevel = maze[YI].split(' ');
-     let XT = XI;
-     let YT = YI;
-     switch(currentLevel[XI]) {
-         case '1':
-         case '3':
-         case '7':
-         case '8':
-         case '9':
-         case '12':
-         case '13':
-             YT += 1;
-             break;
-         case '2':
-             XT += POS === 'LEFT' ? 1 : -1;
-             break;
-         case '4':
-             (POS === 'TOP') ? XT -= 1 : YT +=1;
-             break;
-         case '5':
-             (POS === 'TOP') ? XT += 1 : YT +=1;
-             break;
-         case '6':
-             XT += (POS === 'TOP' && EX > XI) || POS === 'LEFT' ? 1 : -1;
-             break;
-         case '10':
-             XT -= 1;
-             break;    
-         case '11':
-             XT += 1;
-             break;
-         default:
-             break;
-     }
- 
-     // One line containing the X Y coordinates of the room 
-     // in which you believe Indy will be on the next turn.
-     print(`${XT} ${YT}`);
- }
+let inputs = readline().split(' ');
+const W = parseInt(inputs[0]); // Number of columns.
+const H = parseInt(inputs[1]); // Number of rows.
+const maze = []; // Maze
+
+for (let i = 0; i < H; i++) {
+    // Represents a line in the grid and contains W integers.
+    // Each integer represents one room of a given type.
+    const LINE = readline();
+    maze.push(LINE);
+
+}
+// The coordinate along the X axis of the exit
+// (not useful for this first mission, but must be read).
+const EX = parseInt(readline());
+
+// game loop
+while (true) {
+    inputs = readline().split(' ');
+    const XI = parseInt(inputs[0]);
+    const YI = parseInt(inputs[1]);
+    const POS = inputs[2];
+
+    const currentLevel = maze[YI].split(' ');
+    let XT = XI;
+    let YT = YI;
+    switch(currentLevel[XI]) {
+        case '1':
+        case '3':
+        case '7':
+        case '8':
+        case '9':
+        case '12':
+        case '13':
+            YT += 1;
+            break;
+        case '2':
+            XT += POS === 'LEFT' ? 1 : -1;
+            break;
+        case '4':
+            (POS === 'TOP') ? XT -= 1 : YT +=1;
+            break;
+        case '5':
+            (POS === 'TOP') ? XT += 1 : YT +=1;
+            break;
+        case '6':
+            XT += (POS === 'TOP' && EX > XI) || POS === 'LEFT' ? 1 : -1;
+            break;
+        case '10':
+            XT -= 1;
+            break;    
+        case '11':
+            XT += 1;
+            break;
+        default:
+            break;
+    }
+
+    // One line containing the X Y coordinates of the room 
+    // in which you believe Indy will be on the next turn.
+    print(`${XT} ${YT}`);
+}

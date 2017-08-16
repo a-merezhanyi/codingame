@@ -1,7 +1,9 @@
 # codingame
 My solutions for https://www.codingame.com
 
-[(medium) Don't Panic - Episode 1.js]((medium)%20Don't%20Panic%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/temperatures)
+[(medium) the Last Crusade - Episode 1.js]((medium)%20the%20Last%20Crusade%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/the-last-crusade-episode-1)
+
+[(medium) Don't Panic - Episode 1.js]((medium)%20Don't%20Panic%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/don't-panic-episode-1)
 
 [(medium) There is no Spoon - Episode 1.js]((medium)%20There%20is%20no%20Spoon%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1)
 
@@ -22,4 +24,3 @@ My solutions for https://www.codingame.com
 [(easy) Power of Thor - Episode 1.js]((easy)%20Power%20of%20Thor%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/power-of-thor-episode-1)
 
 [(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/medium/don't-panic-episode-1)
-

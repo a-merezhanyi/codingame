@@ -42,5 +42,7 @@ while (true) { // game loop
         currentX++;
     }
 
-    print(move); // A single line providing the move to be made: N NE E SE S SW W or NW
+    // A single line providing the move to be made:
+    // N NE E SE S SW W or NW
+    print(move);
 }

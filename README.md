@@ -24,3 +24,5 @@ My solutions for https://www.codingame.com
 [(easy) Power of Thor - Episode 1.js]((easy)%20Power%20of%20Thor%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/power-of-thor-episode-1)
 
 [(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/medium/don't-panic-episode-1)
+
+[(easy) The Descent.js]((easy)%20The%20Descent.js): [Description](https://www.codingame.com/training/easy/the-descent)

@@ -5,13 +5,14 @@
  * You can use indexes of arrays
  *
  * Statement:
- * The goal of the problem is to simulate an old airport terminal display: your
- * program must display a line of text in ASCII art.
- * You have to split strings, store them and recreate others. You can use data
- * structures like arrays or hash tables.
+ * The goal of the problem is to simulate an old airport terminal
+ * display: your program must display a line of text in ASCII art.
+ * You have to split strings, store them and recreate others. You can us\
+ * data structures like arrays or hash tables.
  *
  * Story:
- * Do you feel you are an artist at heart? Unfortunately you are a programmer :(
+ * Do you feel you are an artist at heart? Unfortunately you are
+ * a programmer :(
  * Why not give a try at ...
  *     __    ___   ___  ____  ____      __    ____  ____ 
  *   /__\  / __) / __)(_  _)(_  _)    /__\  (  _ \(_  _)
@@ -22,55 +23,23 @@
 **/
 var L = parseInt(readline());
 var H = parseInt(readline());
-var T = readline();
-var abcIndex = {
-    a: 0,
-    b: 1,
-    c: 2,
-    d: 3,
-    e: 4,
-    f: 5,
-    g: 6,
-    h: 7,
-    i: 8,
-    j: 9,
-    k: 10,
-    l: 11,
-    m: 12,
-    n: 13,
-    o: 14,
-    p: 15,
-    q: 16,
-    r: 17,
-    s: 18,
-    t: 19,
-    u: 20,
-    v: 21,
-    w: 22,
-    x: 23,
-    y: 24,
-    z: 25
-}
-var abc = [];
-var str = '';
+var T = readline().toLowerCase();
 
-for (var i = 0; i < H; i++) {
-    var ROW = readline();
-    abc[i] = ROW;
-}
-
-// Write an action using print()
-// To debug: printErr('Debug messages...');
-T = T.toLowerCase();
-for (var j = 0; j < H; j++) {
-    for (i = 0; i < T.length; i++ ) {
-        var index = abcIndex[T[i]] * L;
-        if (isNaN(index)) {
-            index = 26 * L;
-        }
-        str += abc[j].slice(index, index + L);
+for (let i = 0; i < H; i++) {
+    let row = readline(); // Read one row
+    let str = '';
+    
+    for (let j = 0; j < T.length; j++ ) {
+        // Define the position of current letter
+        // In the current alphabet
+        let index = (T[j].charCodeAt(0) - 97) * L;
+        
+        // If it's not in the current alphabet
+        // Then select "?" mark
+        (index < 0) && (index = 26 * L);
+        // Add current piece of selected letter
+        str += row.slice(index, index + L);
     }
-    str += '\n';
+    
+    print(str); // Print current line
 }
-
-print(str);

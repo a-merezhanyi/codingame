@@ -13,28 +13,12 @@
  * Test your encoding skills in this easy puzzle where you will be asked to
  * transform a string into a “unary” string such as 0 00 000 0...
 **/
-var MESSAGE = readline();
-
-// Write an action using print()
-// To debug: printErr('Debug messages...');
-printErr(MESSAGE, MESSAGE.charCodeAt(0), parseInt(MESSAGE.charCodeAt(0), 10).toString(2));
-
-var inpMessage = '';
-for (var i = 0; i < MESSAGE.length; i++) {
-    var ch = parseInt(MESSAGE.charCodeAt(i), 10).toString(2);
-    inpMessage += (ch.length == 7) ? ch : '0' + ch;
-}
-
-var msg = '';
-var prevChar = null;
- for (var i = 0; i < inpMessage.length; i++) {
-        printErr(inpMessage[i], prevChar, msg);
-        if (inpMessage[i] != prevChar) {
-            msg += (inpMessage[i] == '1') ? ' 0 0' : ' 00 0';
-            prevChar = inpMessage[i];
-        } else {
-            msg += '0';
-        }
-}
-
-print(msg.slice(1));
+print(
+    readline()
+        .split('')
+        .map( char => parseInt(char.charCodeAt(0), 10).toString(2).padStart(7, '0'))
+        .join('')
+        .match(/(\d)\1*/g)
+        .map(char => (char[0] === '1' ? '0 ' : '00 ') + '0'.repeat(char.length))
+        .join(' ')
+);

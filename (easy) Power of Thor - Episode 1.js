@@ -37,7 +37,7 @@ while (true) { // game loop
     if (currentX > lightX && currentX > 0) {
         move += 'W';
         currentX--;
-    } else if (ThorX < lightX && ThorY < 39) {
+    } else if (currentX < lightX && currentX < 39) {
         move += 'E';
         currentX++;
     }

@@ -21,9 +21,9 @@
  *
  * In this puzzle, transform strings of characters into ASCII ART.
 **/
-var L = parseInt(readline());
-var H = parseInt(readline());
-var T = readline().toLowerCase();
+const L = parseInt(readline());
+const H = parseInt(readline());
+const T = readline().toLowerCase();
 
 for (let i = 0; i < H; i++) {
     let row = readline(); // Read one row

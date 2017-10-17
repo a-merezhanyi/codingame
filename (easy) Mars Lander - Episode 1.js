@@ -14,13 +14,13 @@
  * commander. You will have to land the space ship on mars, making sure that
  * the landing is done smoothly.
 **/
-var N = parseInt(readline()); // the number of points used to draw the surface of Mars.
-var X1 = -1, X2 = -1, Y1 = -1, xp = -1, Xmiddle, Ymiddle;
+const N = parseInt(readline()); // the number of points used to draw the surface of Mars.
+const X1 = -1, X2 = -1, Y1 = -1, xp = -1, Xmiddle, Ymiddle;
 
-for (var i = 0; i < N; i++) {
-    var inputs = readline().split(' ');
-    var LAND_X = parseInt(inputs[0]); // X coordinate of a surface point. (0 to 6999)
-    var LAND_Y = parseInt(inputs[1]); // Y coordinate of a surface point. By linking all the points together in a sequential fashion, you form the surface of Mars.
+for (let i = 0; i < N; i++) {
+    const inputs = readline().split(' ');
+    const LAND_X = parseInt(inputs[0]); // X coordinate of a surface point. (0 to 6999)
+    const LAND_Y = parseInt(inputs[1]); // Y coordinate of a surface point. By linking all the points together in a sequential fashion, you form the surface of Mars.
     if (LAND_Y == Y1) {
         X1 = xp;
         X2 = LAND_X;

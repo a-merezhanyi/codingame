@@ -33,14 +33,14 @@ for (let i = 0; i < N; i++) {
 Xmiddle = X2 - (X2 - X1)/2;
 // game loop
 while (true) {
-    var inputs = readline().split(' ');
-    var X = parseInt(inputs[0]);
-    var Y = parseInt(inputs[1]);
-    var HS = parseInt(inputs[2]); // the horizontal speed (in m/s), can be negative.
-    var VS = parseInt(inputs[3]); // the vertical speed (in m/s), can be negative.
-    var F = parseInt(inputs[4]); // the quantity of remaining fuel in liters.
-    var R = parseInt(inputs[5]); // the rotation angle in degrees (-90 to 90).
-    var P = parseInt(inputs[6]); // the thrust power (0 to 4).
+    const inputs = readline().split(' ');
+    const X = parseInt(inputs[0]);
+    const Y = parseInt(inputs[1]);
+    const HS = parseInt(inputs[2]); // the horizontal speed (in m/s), can be negative.
+    const VS = parseInt(inputs[3]); // the vertical speed (in m/s), can be negative.
+    const F = parseInt(inputs[4]); // the quantity of remaining fuel in liters.
+    const R = parseInt(inputs[5]); // the rotation angle in degrees (-90 to 90).
+    const P = parseInt(inputs[6]); // the thrust power (0 to 4).
 
     // Write an action using print()
     // To debug: printErr('Debug messages...');

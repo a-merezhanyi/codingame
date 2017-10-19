@@ -44,7 +44,7 @@ while (true) {
 
     // Write an action using print()
     // To debug: printErr('Debug messages...');
-    var angle, acc;
+    let angle, acc;
     if (X < Xmiddle) {
         angle = -45;
         

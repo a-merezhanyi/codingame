@@ -59,11 +59,7 @@ while (true) {
         }
         
     }
-    if (X == Xmiddle) {
-        angle = 0;
-    }
-    
-    if (Y - Ymiddle < 100) {
+    if (X == Xmiddle || Y - Ymiddle < 10) {
         angle = 0;
     }
     

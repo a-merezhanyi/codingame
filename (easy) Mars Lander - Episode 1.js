@@ -47,17 +47,12 @@ while (true) {
     let angle, acc;
     if (X < Xmiddle) {
         angle = -45;
-        acc = (HS < 10) ? 4:  0;
+        acc = (HS < 10) ? 4 :  0;
     }
     if (X > Xmiddle) {
         angle = 45;
         
-        if (HS > -10) {
-            acc = 4;
-        } else {
-            acc = 0;
-        }
-        
+        acc = (HS > -10) ? 4 : 0;
     }
     if (X == Xmiddle || Y - Ymiddle < 10) {
         angle = 0;

@@ -1,22 +1,8 @@
-/** War - winamax battle (medium) https://www.codingame.com/training/medium/winamax-battle
- * Solving this puzzle shows that you can manipulate queues and simulate
- * every step of deterministic card game.
- *
- * Statement:
- * Your program must determine the winner of a game of War, a simple
- * two-player card game.
- *
- * Story:
- * Over at Winamax, card games are all the rage. Why don't you join
- * the party?
- **/
-// Test Data
-// const cardPlayer1 = ['10', '9', '8', 'K', '7', '5', '6'];
-// const cardPlayer2 = ['10', '7', '5', 'Q', '2', '4', '6'];
-
 // read cards & remove cards' suit
 const cardPlayer1 = new Array(+readline()).fill().map(() => readline().slice(0, -1));
+// const cardPlayer1 = ['10', '9', '8', 'K', '7', '5', '6'];
 const cardPlayer2 = new Array(+readline()).fill().map(() => readline().slice(0, -1));
+// const cardPlayer2 = ['10', '7', '5', 'Q', '2', '4', '6'];
 const cardsPower = {2: 1, 3: 2, 4: 3, 5: 4, 6: 5, 7: 6, 8: 7, 9: 8, 10: 9, J: 10, Q: 11, K: 12, A: 13};
 
 
@@ -52,6 +38,8 @@ printErr('initial decks:', cardPlayer1, cardPlayer2);
 while (!isGameFinished) {
     const player1Card = cardPlayer1.shift(); // take P1's card
     const player2Card = cardPlayer2.shift(); // take P2's card
+    // const player1Table = [];
+    // const player2Table = [];
     
     printErr(`round ${roundIndex}:` , player1Card, player2Card);
     printErr('cards:', cardPlayer1, cardPlayer2);
@@ -64,17 +52,20 @@ while (!isGameFinished) {
         const player1Stack = cardPlayer1.splice(0, 3);
         const player2Stack = cardPlayer2.splice(0, 3);
         
-        const whoWinsWar = war(player1Stack, player2Stack);
+        // const whoWinsWar = war(player1Stack, player2Stack);
+        // take cards again
+        const player1NextCard = cardPlayer1.shift();
+        const player2NextCard = cardPlayer2.shift();
         
-        printErr('war:', player1Stack, player2Stack)
-        printErr('whoWinsWar:', whoWinsWar);
+        printErr('war:', player1Stack, player2Stack, player1NextCard, player2NextCard)
+        // printErr('whoWinsWar:', whoWinsWar);
         
-        if (whoWinsWar === -1) {
+        if (!player1NextCard || !player2NextCard) {
             result = 'PAT';
-        } else if (whoWinsWar === 1) {
-            cardPlayer1.push(...player1Stack, player1Card, ...player2Stack, player2Card);
-        } else if (whoWinsWar === 2) {
-            cardPlayer2.push(...player1Stack, player1Card, ...player2Stack, player2Card);
+        } else if (cardsPower[player1NextCard] > cardsPower[player2NextCard]) {
+            cardPlayer1.push(...player1Stack, player1Card, player1NextCard, ...player2Stack, player2Card, player2NextCard);
+        } else if (cardsPower[player1NextCard] > cardsPower[player2NextCard]) {
+            cardPlayer2.push(...player1Stack, player1Card, player1NextCard, ...player2Stack, player2Card, player2NextCard);
         } else {
             // chained war
         }

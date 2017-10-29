@@ -1,7 +1,21 @@
 /** Mars Lander - Episode 2 (medium) https://www.codingame.com/training/medium/mars-lander-episode-2
+ * In this puzzle, iterating on a series of 2D coordinates helps you
+ * grasp the concepts of comparisons, distance computation, extrapolation.
+ * This puzzles works with angle and orientation constraints. You learn to
+ * compute the speed of an object using its coordinates at two different
+ * times. If you perform well, you can solve this problem using some
+ * distance and trajectory optimization.
  * 
+ * Statement:
+ * The goal of this problem is to make you work with 2D coordinates in a
+ * big environnement. You will have to manage and extrapolate the speed of a
+ * spaceship and make it land on a flat ground at correct speed.
  * 
- **/
+ * Story:
+ * Your Mars exploration ship takes you above a particularly rocky area.
+ * You will have to review and improve your descent technique in order to
+ * land your mars rover safely on martian ground.
+**/
 
 const G = 3.711;
 const maxHspeed = 20;

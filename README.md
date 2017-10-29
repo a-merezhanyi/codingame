@@ -1,6 +1,7 @@
 # codingame
 My solutions for https://www.codingame.com
-https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
+
+Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
 [(medium) the Last Crusade - Episode 1.js]((medium)%20the%20Last%20Crusade%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/the-last-crusade-episode-1)
 

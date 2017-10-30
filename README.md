@@ -25,6 +25,6 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(easy) Power of Thor - Episode 1.js]((easy)%20Power%20of%20Thor%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/power-of-thor-episode-1)
 
-[(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures)
+[(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures) - [Video Tutorial](https://www.youtube.com/watch?v=V6zqHdwTYc8)
 
 [(easy) The Descent.js]((easy)%20The%20Descent.js): [Description](https://www.codingame.com/training/easy/the-descent) - [Video Tutorial](https://www.youtube.com/watch?v=_QTh8AQzYqw)

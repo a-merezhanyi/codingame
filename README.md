@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(medium) Mars Lander - Episode 2.js]((medium)%20Mars%20Lander%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/medium/mars-lander-episode-2)
+
 [(medium) the Last Crusade - Episode 1.js]((medium)%20the%20Last%20Crusade%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/the-last-crusade-episode-1)
 
 [(medium) Don't Panic - Episode 1.js]((medium)%20Don't%20Panic%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/don't-panic-episode-1)
@@ -15,7 +17,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/defibrillators)
 
-[(easy) Horse Racing Duals.js]((easy)%20Horse%20Racing%20Duals.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals)
+[(easy) Horse Racing Duals.js]((easy)%20Horse%20Racing%20Duals.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals) - [Video Tutorial](https://www.youtube.com/watch?v=V6zqHdwTYc8)
 
 [(easy) MIME Type.js]((easy)%20MIME%20Type.js) : [Description](https://www.codingame.com/training/easy/mime-type)
 
@@ -25,6 +27,6 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(easy) Power of Thor - Episode 1.js]((easy)%20Power%20of%20Thor%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/power-of-thor-episode-1)
 
-[(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures) - [Video Tutorial](https://www.youtube.com/watch?v=V6zqHdwTYc8)
+[(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures)
 
 [(easy) The Descent.js]((easy)%20The%20Descent.js): [Description](https://www.codingame.com/training/easy/the-descent) - [Video Tutorial](https://www.youtube.com/watch?v=_QTh8AQzYqw)

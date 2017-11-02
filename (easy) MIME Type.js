@@ -11,23 +11,22 @@
  * Story:
  * So many files, so little time... Let's tidy things up!
 **/
-var N = parseInt(readline()); // Number of elements which make up the association table.
-var Q = parseInt(readline()); // Number Q of file names to be analyzed.
-var exts = {};
+const N = +readline(); // Number of elements which make up the association table.
+const Q = +readline(); // Number Q of file names to be analyzed.
 
-for (var i = 0; i < N; i++) {
-    var inputs = readline().split(' ');
-    var EXT = inputs[0]; // file extension
-    var MT = inputs[1]; // MIME type.
-    exts[EXT.toLowerCase()] = MT;
-}
-for (var i = 0; i < Q; i++) {
-    var FNAME = readline(); // One file name per line.
-    var extArr = FNAME.split('.');
-    printErr('extArr.length', (extArr.length>1));
-    var extNum = (extArr.length > 1) ? (extArr.length - 1) : 1;
-    //var extNum = 1;
-    var itsExt = ('' + extArr[extNum]).toLowerCase();
-    printErr(extArr, extNum, itsExt, FNAME);
-    print((exts[itsExt]) ? exts[itsExt] : 'UNKNOWN');
-}
+const getType = obj => {
+    const x = readline().split` `;
+    obj[x[0].toLowerCase()] = x[1];
+    return obj;
+};
+
+const ext = [...Array(N)].reduce(getType,  {});
+
+print([...Array(Q)]
+        .map(_ => {
+            const extArr = readline().toLowerCase().split`.`;
+            const n = (extArr.length > 1) ? (extArr.length - 1) : 1;
+            return (ext[extArr[n]] || 'UNKNOWN');
+            })
+        .join('\n')
+);

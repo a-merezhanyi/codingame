@@ -13,34 +13,13 @@
  * It's freezing cold out there! Will you be able to find the temperature
  * closest to zero in a set of temperatures readings?
 **/
-const N = parseInt(readline()); // the number of temperatures to analyse
-const TEMPS = readline(); // the N temperatures expressed as integers ranging from -273 to 5526
+const N = +readline();
+const tC = readline().split` `.map(x => +x);
 
-// Write an action using print()
-// To debug: printErr('Debug messages...');
-let min = 1000000,
-    temp = [],
-    i;
+let min = Infinity;
 
-temp = TEMPS.split(' ');
-printErr(temp);
-for (i=0; i<N; i++) {
-    printErr(temp[i], min);
-    if (Math.abs(parseInt(temp[i])) <= Math.abs(parseInt(min))) {
-        if (Math.abs(parseInt(temp[i])) == Math.abs(parseInt(min))) {
-            if (parseInt(temp[i]) < 0 && parseInt(min) < 0) {
-                min = parseInt(temp[i]);
-            } else {
-                min = Math.abs(parseInt(temp[i]));
-            }
-        } else {
-            min = parseInt(temp[i]);
-        }
-        
-        printErr(min);
-    }
+for (let i in tC) {
+    (Math.abs(tC[i]) < Math.abs(min) || tC[i] === -min && tC[i] > 0) && (min = tC[i]);
 }
-if (min == 1000000) {
-    min = 0;
-}
-print(min);
+
+print(min || 0);

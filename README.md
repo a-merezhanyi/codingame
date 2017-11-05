@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(medium) Scrabble.js]((medium)%20Scrabble.js) : [Description](https://www.codingame.com/training/medium/scrabble)
+
 [(medium) Mars Lander - Episode 2.js]((medium)%20Mars%20Lander%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/medium/mars-lander-episode-2)
 
 [(medium) the Last Crusade - Episode 1.js]((medium)%20the%20Last%20Crusade%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/the-last-crusade-episode-1)

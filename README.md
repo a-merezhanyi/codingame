@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(medium)Shadows of the Knight - Episode 1.js]((medium)%20Shadows%20of%20the%20Knight%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1)
+
 [(medium) Stock Exchange Losses.js]((medium)%20Stock%20Exchange%20Losses.js) : [Description](https://www.codingame.com/training/medium/stock-exchange-losses)
 
 [(medium) Scrabble.js]((medium)%20Scrabble.js) : [Description](https://www.codingame.com/training/medium/scrabble)
@@ -27,10 +29,10 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(easy) Mars Lander - Episode 1.js]((easy)%20Mars%20Lander%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/mars-lander-episode-1)
 
-[(easy) Onboarding.js]((easy)%20Onboarding.js) : [Description](https://www.codingame.com/training/easy/onboarding)
+[(easy) Onboarding.js]((easy)%20Onboarding.js) : [Description](https://www.codingame.com/training/easy/onboarding) - [Video Tutorial](https://www.youtube.com/watch?v=_QTh8AQzYqw)
 
 [(easy) Power of Thor - Episode 1.js]((easy)%20Power%20of%20Thor%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/power-of-thor-episode-1)
 
 [(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures)
 
-[(easy) The Descent.js]((easy)%20The%20Descent.js): [Description](https://www.codingame.com/training/easy/the-descent) - [Video Tutorial](https://www.youtube.com/watch?v=_QTh8AQzYqw)
+[(easy) The Descent.js]((easy)%20The%20Descent.js): [Description](https://www.codingame.com/training/easy/the-descent)

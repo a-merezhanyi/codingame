@@ -39,4 +39,4 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures)
 
-[(easy) The Descent.js]((easy)%20The%20Descent.js): [Description](https://www.codingame.com/training/easy/the-descent)
+[(easy) The Descent.js]((easy)%20The%20Descent.js): [Description](https://www.codingame.com/training/easy/the-descent) - [Video Tutorial](https://www.youtube.com/watch?v=bnbA9S0ZzGA)

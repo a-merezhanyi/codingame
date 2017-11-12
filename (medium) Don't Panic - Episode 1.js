@@ -13,10 +13,10 @@
  * People Transporters.
  **/
 let inputs = readline().split(' ')
-const nbFloors = parseInt(inputs[0]) // number of floors
-const exitFloor = parseInt(inputs[3]) // floor on which the exit is found
-const exitPos = parseInt(inputs[4]) // position of the exit on its floor
-const nbElevators = parseInt(inputs[7]) // number of elevators
+const nbFloors = +inputs[0] // number of floors
+const exitFloor = +inputs[3] // floor on which the exit is found
+const exitPos = +inputs[4] // position of the exit on its floor
+const nbElevators = +inputs[7] // number of elevators
 const elevators = []
 
 for (let i = 0; i < nbElevators; i++) {

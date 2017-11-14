@@ -15,8 +15,7 @@
  * least memory space? It is your task today to achieve that hard work. Then
  * call me, maybe ?
  */
-const N = parseInt(readline());
-const telephone = [...Array(N)].map(_ => readline()).sort();
+const telephone = Array.from({length: +readline()}, readline).sort();
 let num = telephone[0].length;
 
 for (let i = 1; i < telephone.length; i++) {

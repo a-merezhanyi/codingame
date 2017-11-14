@@ -27,16 +27,16 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/defibrillators)
 
-[(easy) Horse Racing Duals.js]((easy)%20Horse%20Racing%20Duals.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals) - [Video Tutorial](https://www.youtube.com/watch?v=V6zqHdwTYc8)
-
 [(easy) MIME Type.js]((easy)%20MIME%20Type.js) : [Description](https://www.codingame.com/training/easy/mime-type)
 
 [(easy) Mars Lander - Episode 1.js]((easy)%20Mars%20Lander%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/mars-lander-episode-1)
 
-[(easy) Onboarding.js]((easy)%20Onboarding.js) : [Description](https://www.codingame.com/training/easy/onboarding) - [Video Tutorial](https://www.youtube.com/watch?v=_QTh8AQzYqw)
-
-[(easy) Power of Thor - Episode 1.js]((easy)%20Power%20of%20Thor%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/power-of-thor-episode-1)
-
 [(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures)
 
+[(easy) Power of Thor - Episode 1.js]((easy)%20Power%20of%20Thor%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/power-of-thor-episode-1) - [Video Tutorial](https://www.youtube.com/watch?v=VbV-qi7wudc)
+
 [(easy) The Descent.js]((easy)%20The%20Descent.js): [Description](https://www.codingame.com/training/easy/the-descent) - [Video Tutorial](https://www.youtube.com/watch?v=bnbA9S0ZzGA)
+
+[(easy) Horse Racing Duals.js]((easy)%20Horse%20Racing%20Duals.js) : [Description](https://www.codingame.com/training/easy/horse-racing-duals) - [Video Tutorial](https://www.youtube.com/watch?v=V6zqHdwTYc8)
+
+[(easy) Onboarding.js]((easy)%20Onboarding.js) : [Description](https://www.codingame.com/training/easy/onboarding) - [Video Tutorial](https://www.youtube.com/watch?v=_QTh8AQzYqw)

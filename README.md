@@ -5,6 +5,8 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) War - winamax battle.js]((medium)%20War%20-%20winamax%20battle.js) : [Description](https://www.codingame.com/training/medium/winamax-battle)
 
+[(medium) Telephone Numbers.js]((medium)%20Telephone%20Numbers.js) : [Description](https://www.codingame.com/training/medium/telephone-numbers)
+
 [(medium) Conway sequence.js]((medium)%20%20Conway%20sequence.js) : [Description](https://www.codingame.com/training/medium/conway-sequence)
 
 [(medium)Shadows of the Knight - Episode 1.js]((medium)%20Shadows%20of%20the%20Knight%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1)

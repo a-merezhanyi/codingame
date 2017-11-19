@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(medium) Skynet Revolution - Episode 1.js]((medium)%20Skynet%20Revolution%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/skynet-revolution-episode-1/)
+
 [(medium) The Gift.js]((medium)%20The%20Gift.js) : [Description](https://www.codingame.com/training/medium/the-gift)
 
 [(medium) War - winamax battle.js]((medium)%20War%20-%20winamax%20battle.js) : [Description](https://www.codingame.com/training/medium/winamax-battle)

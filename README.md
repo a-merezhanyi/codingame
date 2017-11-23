@@ -15,7 +15,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Conway sequence.js]((medium)%20%20Conway%20sequence.js) : [Description](https://www.codingame.com/training/medium/conway-sequence)
 
-[(medium)Shadows of the Knight - Episode 1.js]((medium)%20Shadows%20of%20the%20Knight%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1)
+[(medium) Shadows of the Knight - Episode 1.js]((medium)%20Shadows%20of%20the%20Knight%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1)
 
 [(medium) Stock Exchange Losses.js]((medium)%20Stock%20Exchange%20Losses.js) : [Description](https://www.codingame.com/training/medium/stock-exchange-losses)
 

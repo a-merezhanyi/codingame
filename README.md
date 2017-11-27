@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(medium) Dwarfs standing on the shoulders of giants.js]((medium)%20Dwarfs%20standing%20on%20the%20shoulders%20of%20giants.js) : [Description](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants)
+
 [(medium) Telephone Numbers.js]((medium)%20Telephone%20Numbers.js) : [Description](https://www.codingame.com/training/medium/telephone-numbers)
 
 [(medium) Mayan Calculation.js]((medium)%20Mayan%20Calculation.js) : [Description](https://www.codingame.com/training/medium/mayan-calculation)

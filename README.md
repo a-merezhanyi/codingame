@@ -3,6 +3,10 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(medium) Dwarfs standing on the shoulders of giants.js]((medium)%20Dwarfs%20standing%20on%20the%20shoulders%20of%20giants.js) : [Description](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants)
+
+[(medium) Telephone Numbers.js]((medium)%20Telephone%20Numbers.js) : [Description](https://www.codingame.com/training/medium/telephone-numbers)
+
 [(medium) Mayan Calculation.js]((medium)%20Mayan%20Calculation.js) : [Description](https://www.codingame.com/training/medium/mayan-calculation)
 
 [(medium) Skynet Revolution - Episode 1.js]((medium)%20Skynet%20Revolution%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/skynet-revolution-episode-1/)
@@ -29,15 +33,15 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) There is no Spoon - Episode 1.js]((medium)%20There%20is%20no%20Spoon%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1)
 
-[(easy) Chuck Norris.js]((easy)%20Chuck%20Norris.js) : [Description](https://www.codingame.com/training/easy/chuck-norris)
-
-[(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/defibrillators)
-
 [(easy) MIME Type.js]((easy)%20MIME%20Type.js) : [Description](https://www.codingame.com/training/easy/mime-type)
+
+[(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures)
 
 [(easy) Mars Lander - Episode 1.js]((easy)%20Mars%20Lander%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/mars-lander-episode-1)
 
-[(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures)
+[(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/defibrillators) - [Video Tutorial](https://www.youtube.com/watch?v=YV2m6kuv1bY)
+
+[(easy) Chuck Norris.js]((easy)%20Chuck%20Norris.js) : [Description](https://www.codingame.com/training/easy/chuck-norris) - [Video Tutorial](https://www.youtube.com/watch?v=F0VBD1NyGLQ)
 
 [(easy) ASCII Art.js]((easy)%20ASCII%20Art.js) : [Description](https://www.codingame.com/training/easy/ascii-art) - [Video Tutorial](https://www.youtube.com/watch?v=WOeGHSG4Gsw)
 

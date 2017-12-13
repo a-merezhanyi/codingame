@@ -20,59 +20,57 @@
 const G = 3.711;
 const maxHspeed = 20;
 const maxVspeed = 40;
-const diff = 5;
-const toDegrees = radians => { return radians * 180 / Math.PI; };
+const toDegrees = radians => radians * 180 / Math.PI;
+let [lastX, lastY, startX, endX, landingY] = [-1, -1, -1, -1, -1];
+let surfaceN = +readline(); // the number of points used to draw the surface of Mars.
 
-const surfaceN = +readline(); 
-let lastX = -1;
-let lastY = -1;
-let landingStartX = -1;
-let landingEndX = -1;
-let landingY = -1;
-
-for (let i = 0; i < surfaceN; i++) {
-    const inputs = readline().split(' ');
-    const landX = +inputs[0];
-    const landY = +inputs[1];
+while (surfaceN--) {
+    // landX - X coordinate of a surface point. (0 to 6999)
+    // landY - Y coordinate of a surface point. By linking all the points together in a sequential fashion, you form the surface of Mars.
+    const [landX, landY] = readline().split` `.map(Number);
     
-    if(lastY === landY && landingStartX === -1) {
-        landingStartX = lastX;
-        landingY = landY;
-    } else if (landingStartX !== -1 && landingEndX === -1) {
-        landingEndX = lastX;
+    if(lastY === landY && -1 === startX) {
+        [startX, landingY] = [lastX, landY];
+    } else if (-1 !== startX && -1 === endX) {
+        endX = lastX;
     }
-    lastX = landX;
-    lastY = landY;
+    
+    [lastX, lastY] = [landX, landY];
 }
 
+// game loop
 while (true) {
-    const inputs = readline().split(' ');
-    const X = +inputs[0];
-    const Y = +inputs[1];
-    const hSpeed = +inputs[2];
-    const vSpeed = +inputs[3];
+    // hSpeed - the horizontal speed (in m/s), can be negative.
+    // vSpeed - the vertical speed (in m/s), can be negative.
+    const [X, Y, hSpeed, vSpeed] = readline().split` `.map(Number);
     const speed = Math.sqrt(Math.pow(hSpeed, 2) + Math.pow(vSpeed, 2));
-    const aimAngle = toDegrees(Math.acos(G / 4.0));
+    const aimAngle = toDegrees(Math.acos(G / 4));
     
     let angle = 0;
     let acc = 4;
     
-    if (!(landingStartX <= X && X <= landingEndX)) {
-        if ((X < landingStartX && hSpeed < 0) || (landingEndX < X && hSpeed > 0)
+    if (!(startX <= X && X <= endX)) {
+        // if it is not over the target
+        if ((X < startX && hSpeed < 0) || (endX < X && hSpeed > 0)
         || Math.abs(hSpeed) > 4 * maxHspeed) {
-            angle = toDegrees(Math.asin(hSpeed / speed));
+            // if it goes in wrong direction or goes too fast horizontally
+            angle = toDegrees(Math.asin(hSpeed / speed)); // if angle is to slow
         } else if (Math.abs(hSpeed) < 2 * maxHspeed) {
-            angle = (X < landingStartX) ? -aimAngle : (landingEndX < X) ? aimAngle : 0;
+            // if it goes too slow horizontally
+            angle = (X < startX) ? -aimAngle : (endX < X) ? aimAngle : 0;
         } else if (vSpeed >= 0) {
             acc = 3;
         }
     } else {
         if (Y < 200 + landingY) {
+            // is finishing, i.e. Y is < critical height
             acc = 3;
-        } else if (Math.abs(hSpeed) <= maxHspeed - diff
-                && Math.abs(vSpeed) <= maxVspeed - diff) {
+        } else if (Math.abs(hSpeed) <= maxHspeed - 5
+                && Math.abs(vSpeed) <= maxVspeed - 5) {
+            // has safe speed
             acc = 2;
         } else  {
+            // if angle is to slow;
             angle = toDegrees(Math.asin(hSpeed / speed));
         }
     }

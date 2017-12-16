@@ -1,65 +1,114 @@
-// Mock data
-// const cardPlayer1 = ['10', '9', '8', 'K', '7', '5', '6'];
-// const cardPlayer2 = ['10', '7', '5', 'Q', '2', '4', '6'];
+/**
+ * War - winamax battle (midium) https://www.codingame.com/training/medium/winamax-battle
+ * Solving this puzzle shows that you can manipulate queues and simulate
+ * every step of deterministic card game.
+ * 
+ * Statement:
+ * Your program must determine the winner of a game of War, a simple
+ * two-player card game.
+ * 
+ * Story:
+ * Over at Winamax, card games are all the rage. Why don't you join the
+ * party?
+ */
+class Queue {
+    constructor() {
+        this.elements = [];
+    }
 
-// read cards & remove cards' suit
-const cardPlayer1 = new Array(+readline()).fill().map(() => readline().slice(0, -1));
-const cardPlayer2 = new Array(+readline()).fill().map(() => readline().slice(0, -1));
-const cardsPower = {2: 1, 3: 2, 4: 3, 5: 4, 6: 5, 7: 6, 8: 7, 9: 8, 10: 9, J: 10, Q: 11, K: 12, A: 13};
-
-
-let isGameFinished = false;
-let playerWon = 1;
-let roundIndex = 1;
-let result = '';
-
-printErr('initial decks:\n', cardPlayer1, '\n', cardPlayer2);
-// cardPlayer1.shift() - from the top
-//cardPlayer1.push('a') - to the bottom
-while (!isGameFinished) {
-    const player1Card = cardPlayer1.shift(); // take P1's card
-    const player2Card = cardPlayer2.shift(); // take P2's card
-    
-    printErr(`round ${roundIndex}:` , player1Card, player2Card);
-    printErr('cards:', cardPlayer1, cardPlayer2);
-    
-    if (cardsPower[player1Card] > cardsPower[player2Card]) {
-        cardPlayer1.push(player1Card, player2Card);
-    } else if (cardsPower[player1Card] < cardsPower[player2Card]) {
-        cardPlayer2.push(player1Card, player2Card);
-    } else { // it's war time!
-        if (cardPlayer1.length < 3 || cardPlayer2.length < 3) {
-            result = 'PAT';
-        } else {
-            const player1Stack = cardPlayer1.splice(0, 3);
-            const player2Stack = cardPlayer2.splice(0, 3);
-            
-            // take cards again
-            const player1NextCard = cardPlayer1.shift();
-            const player2NextCard = cardPlayer2.shift();
-            
-            printErr('war:', player1Stack, player2Stack, player1NextCard, player2NextCard)
-            
-            if (!player1NextCard || !player2NextCard) {
-                result = 'PAT';
-            } else if (cardsPower[player1NextCard] > cardsPower[player2NextCard]) {
-                cardPlayer1.push(...player1Stack, player1Card, player1NextCard, ...player2Stack, player2Card, player2NextCard);
-            } else if (cardsPower[player1NextCard] > cardsPower[player2NextCard]) {
-                cardPlayer2.push(...player1Stack, player1Card, player1NextCard, ...player2Stack, player2Card, player2NextCard);
-            } else {
-                // chained war
-            }
-        }
+    enqueue(c) {
+        this.elements.unshift(c);
     }
     
-    printErr(`endOfRound ${roundIndex}:`, cardPlayer1, cardPlayer2, cardPlayer1.length, cardPlayer2.length, !cardPlayer1.length, !cardPlayer2.length);
-    if (!cardPlayer1.length || !cardPlayer2.length) { // is the battle finished?
-        playerWon = (!cardPlayer1.length) ? 2 : 1; // chose the winner
-        isGameFinished = true;
-        result = result || `${playerWon} ${roundIndex}`; // who's the winner?
+    dequeue(c) {
+        return this.elements.pop(c);
     }
     
-    roundIndex += 1; // it's time fo the next round
+    peek(l = 0) {
+        return this.elements.length > l;
+    }
+
+    enqueueBundle(elements) {
+        elements.forEach(x => this.enqueue(x));
+    }
 }
 
-print(result);
+class Game {
+    constructor(p1Deck, p2Deck) {
+        this.cards = {'2': 0, '3': 1, '4': 2, '5': 3, '6': 4, '7': 5, '8': 6, '9': 7, '10': 8, 'J': 9, 'Q': 10, 'K': 11, 'A':12};
+        this.p1 = p1Deck;
+        this.p2 = p2Deck;
+        this.atWar = false;
+    }
+
+    battle() {
+        if (!this.p1.peek()) {
+            this.winner = 2;
+            
+            return false;
+        }
+        if (!this.p2.peek()) {
+            this.winner = 1;
+            
+            return false;
+        }
+
+        const [p1card, p2card] = [this.p1.dequeue(), this.p2.dequeue()];
+        // compare cards
+        const result =this.cards[p1card] - this.cards[p2card];
+        // if pots are empty
+        !this.atWar && (this.potP1 = [], this.potP2 = []);
+        
+        this.potP1.push(p1card);
+        this.potP2.push(p2card);
+        this.atWar = false;
+        
+        if (result) {
+            const winner = result > 0 ? 'p1' : 'p2';
+            
+            this[winner].enqueueBundle(this.potP1);
+            this[winner].enqueueBundle(this.potP2);
+        } else {
+            return this.startWar() ? this.battle() : false;
+        }
+        
+        return true;
+    }
+
+    startWar() {
+        this.atWar = true;
+
+        // First, check If one if the player has not enough cards left
+        if(!this.p1.peek(3) || !this.p2.peek(3)) {
+            this.winner = 'PAT';
+            return false;
+        }
+
+        for(let i = 0; i < 3; i++) {
+            this.potP1.push(this.p1.dequeue());
+            this.potP2.push(this.p2.dequeue());
+        }
+
+        return true;
+    }
+
+    init() {
+        let counter = 0;
+        
+        while(this.battle()) {
+            counter++;
+        }
+        return counter;
+    }
+}
+
+const player1Deck = new Queue();
+const player2Deck = new Queue();
+
+[...Array(+readline())].forEach(_ => player1Deck.enqueue(readline().slice(0, -1)));
+[...Array(+readline())].forEach(_ => player2Deck.enqueue(readline().slice(0, -1)));
+
+const game = new Game(player1Deck, player2Deck);
+const steps = game.init();
+
+print( 'PAT' === game.winner ? 'PAT' :`${game.winner} ${steps}` );

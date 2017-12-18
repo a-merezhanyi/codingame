@@ -51,10 +51,10 @@ while (1) {
         if ((X < startX && hSpeed < 0) || (endX < X && hSpeed > 0)
         || Math.abs(hSpeed) > 4 * maxHspeed) {
             // if it goes in wrong direction or goes too fast horizontally
-            angle = Math.round(rad2deg(Math.asin(hSpeed / speed))); // if angle is to slow
+            angle = ~~rad2deg(Math.asin(hSpeed / speed)); // if angle is to slow
         } else if (Math.abs(hSpeed) < 2 * maxHspeed) {
             // if it goes too slow horizontally
-            angle = Math.round((X < startX) ? -aimAngle : (endX < X) ? aimAngle : 0);
+            angle = ~~((X < startX) ? -aimAngle : (endX < X) ? aimAngle : 0);
         } else if (vSpeed >= 0) {
             acc = 3;
         }
@@ -68,9 +68,9 @@ while (1) {
             acc = 2;
         } else  {
             // if angle is to slow;
-            angle = Math.round(rad2deg(Math.asin(hSpeed / speed)));
+            angle = ~~rad2deg(Math.asin(hSpeed / speed));
         }
     }
-    
+    //Math.round() - ~~()
     print(angle, acc);
 }

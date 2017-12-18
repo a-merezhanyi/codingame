@@ -16,11 +16,8 @@
  * You will have to review and improve your descent technique in order to
  * land your mars rover safely on martian ground.
 **/
-
-const G = 3.711;
-const maxHspeed = 20;
-const maxVspeed = 40;
-const toDegrees = radians => radians * 180 / Math.PI;
+const [G, maxHspeed, maxVspeed] = [3.711, 20, 40];
+const rad2deg = radians => radians * 180 / Math.PI;
 let [lastX, lastY, startX, endX, landingY] = [-1, -1, -1, -1, -1];
 let surfaceN = +readline(); // the number of points used to draw the surface of Mars.
 
@@ -39,12 +36,12 @@ while (surfaceN--) {
 }
 
 // game loop
-while (true) {
+while (1) {
     // hSpeed - the horizontal speed (in m/s), can be negative.
     // vSpeed - the vertical speed (in m/s), can be negative.
     const [X, Y, hSpeed, vSpeed] = readline().split` `.map(Number);
     const speed = Math.sqrt(Math.pow(hSpeed, 2) + Math.pow(vSpeed, 2));
-    const aimAngle = toDegrees(Math.acos(G / 4));
+    const aimAngle = rad2deg(Math.acos(G / 4));
     
     let angle = 0;
     let acc = 4;
@@ -54,10 +51,10 @@ while (true) {
         if ((X < startX && hSpeed < 0) || (endX < X && hSpeed > 0)
         || Math.abs(hSpeed) > 4 * maxHspeed) {
             // if it goes in wrong direction or goes too fast horizontally
-            angle = toDegrees(Math.asin(hSpeed / speed)); // if angle is to slow
+            angle = Math.round(rad2deg(Math.asin(hSpeed / speed))); // if angle is to slow
         } else if (Math.abs(hSpeed) < 2 * maxHspeed) {
             // if it goes too slow horizontally
-            angle = (X < startX) ? -aimAngle : (endX < X) ? aimAngle : 0;
+            angle = Math.round((X < startX) ? -aimAngle : (endX < X) ? aimAngle : 0);
         } else if (vSpeed >= 0) {
             acc = 3;
         }
@@ -71,9 +68,9 @@ while (true) {
             acc = 2;
         } else  {
             // if angle is to slow;
-            angle = toDegrees(Math.asin(hSpeed / speed));
+            angle = Math.round(rad2deg(Math.asin(hSpeed / speed)));
         }
     }
     
-    print(Math.round(angle), acc);
+    print(angle, acc);
 }

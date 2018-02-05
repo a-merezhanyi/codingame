@@ -16,7 +16,7 @@
  * computer so that as many experiments as possible can be run.
  */
 let N = +readline();
-const [calculation, result] = [[], []];
+const [calculation, agenda] = [[], []];
 
 while(N--) {
     const [J, D] = readline().split` `.map(n => +n);
@@ -29,17 +29,17 @@ calculation
     .forEach(x => {
         const {start, end} = x;
         
-        result.push(x);
-        for (let j = result.length - 2; j >= 0 && result[j].start <= start && result[j].end >= end; j--) {
-            result.splice(j, 1);
+        agenda.push(x);
+        for (let j = agenda.length - 2; j >= 0 && agenda[j].start <= start && agenda[j].end >= end; j--) {
+            agenda.splice(j, 1);
         }
     });
 
 print(
-    result.reduce((x, y) => {
+    agenda.reduce((x, y) => {
         y.start >= x[x.length - 1].end && x.push(y);
 
         return x;
     },
-    result.splice(0, 1)).length
+    agenda.splice(0, 1)).length
 );

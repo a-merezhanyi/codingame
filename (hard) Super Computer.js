@@ -24,16 +24,16 @@ while(N--) {
     calculation.push({start: J, end: J + D});
 }
 
-calculation.sort((a, b) => a.start - b.start ? a.start - b.start : b.start - a.start);
-
-calculation.forEach((x, i) => {
-    const {start, end} = x;
-
-    result.push(x);
-    for (let j = result.length - 2; j >= 0 && result[j].start <= start && result[j].end >= end; j--) {
-        result.splice(j, 1);
-    }
-});
+calculation
+    .sort((a, b) => a.start - b.start ? a.start - b.start : b.start - a.start)
+    .forEach(x => {
+        const {start, end} = x;
+        
+        result.push(x);
+        for (let j = result.length - 2; j >= 0 && result[j].start <= start && result[j].end >= end; j--) {
+            result.splice(j, 1);
+        }
+    });
 
 print(
     result.reduce((x, y) => {

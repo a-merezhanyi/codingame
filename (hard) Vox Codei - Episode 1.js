@@ -163,9 +163,10 @@ const findSolution = (m0, bombs, max = 99, s) => {
         const ps = s.m.filterPos().slice(0, 3);
 
         for(let k = ps.length; k--;){
-            const m = s.m.clone()
-            .bomb(ps[k].x, ps[k].y)
-            .step();
+            const m = s.m
+                .clone()
+                .bomb(ps[k].x, ps[k].y)
+                .step();
 
             list.unshift({
                 m,

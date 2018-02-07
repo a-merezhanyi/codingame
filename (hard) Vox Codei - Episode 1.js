@@ -11,7 +11,7 @@
  * Help V hack the super-computer, Fate, from his vPad, by strategically
  * placing fork-bombs to destroy its firewall.
  */
-class Map {
+class Matrix {
     constructor() {
         this.m = [];
         this.bombs = [];
@@ -104,7 +104,7 @@ class Map {
     }
 
     clone() {        
-        return (new Map()).deepCopy(this);
+        return (new Matrix()).deepCopy(this);
     }
 
     bomb(x, y, delay = 2) {
@@ -186,7 +186,7 @@ const findSolution = (m0, bombs, max = 99, s) => {
     return s.cmd;
 };
 
-const theMap = ( new Map() ).init();
+const theMap = ( new Matrix() ).init();
 let cmd;
 
 

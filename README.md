@@ -39,7 +39,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures)
 
-[(easy) Mars Lander - Episode 1.js]((easy)%20Mars%20Lander%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/mars-lander-episode-1)
+[(easy) Mars Lander - Episode 1.js]((easy)%20Mars%20Lander%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/easy/mars-lander-episode-1) - [Video Tutorial](https://www.youtube.com/watch?v=frcIiJsN1mM)
 
 [(easy) Defibrillators.js]((easy)%20Defibrillators.js) : [Description](https://www.codingame.com/training/easy/defibrillators) - [Video Tutorial](https://www.youtube.com/watch?v=YV2m6kuv1bY)
 

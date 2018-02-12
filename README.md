@@ -3,7 +3,7 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
-[There is no Spoon - Episode 2.js]((hard)%20There%20is%20no%20Spoon%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/hard/there-is-no-spoon-episode-2)
+[(hard) There is no Spoon - Episode 2.js]((hard)%20There%20is%20no%20Spoon%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/hard/there-is-no-spoon-episode-2)
 
 [(medium) Bender - Episode 1.js]((medium)%20Bender%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/bender-episode-1)
 

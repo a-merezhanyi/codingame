@@ -39,7 +39,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) There is no Spoon - Episode 1.js]((medium)%20There%20is%20no%20Spoon%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1)
 
-[(easy) MIME Type.js]((easy)%20MIME%20Type.js) : [Description](https://www.codingame.com/training/easy/mime-type)
+[(easy) MIME Type.js]((easy)%20MIME%20Type.js) : [Description](https://www.codingame.com/training/easy/mime-type) - [Video Tutorial](https://www.youtube.com/watch?v=k2GjkoLudTU)
 
 [(easy) Temperatures.js]((easy)%20Temperatures.js) : [Description](https://www.codingame.com/training/easy/temperatures) - [Video Tutorial](https://www.youtube.com/watch?v=h7Zmnys3TGs)
 

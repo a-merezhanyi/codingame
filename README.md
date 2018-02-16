@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(hard) TAN Network.js]((hard)%20TAN%20Network.js) : [Description](https://www.codingame.com/training/hard/tan-network)
+
 [(hard) The Bridge.js]((hard)%20The%20Bridge.js) : [Description](https://www.codingame.com/training/hard/the-bridge-episode-2)
 
 [(hard) The Last Crusade - Episode 2.js]((hard)%20The%20Last%20Crusade%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/hard/the-last-crusade-episode-2)

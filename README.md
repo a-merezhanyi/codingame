@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(hard) Super Computer.js]((hard)%20Super%20Computer.js) : [Description](https://www.codingame.com/training/hard/super-computer)
+
 [(hard) Surface.js]((hard)%20Surface.js) : [Description](https://www.codingame.com/training/hard/surface)
 
 [(hard) TAN Network.js]((hard)%20TAN%20Network.js) : [Description](https://www.codingame.com/training/hard/tan-network)

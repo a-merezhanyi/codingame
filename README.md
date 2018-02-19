@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(hard) Skynet Revolution - Episode 2.js]((hard)%20Skynet%20Revolution%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/hard/skynet-revolution-episode-2)
+
 [(hard) Super Computer.js]((hard)%20Super%20Computer.js) : [Description](https://www.codingame.com/training/hard/super-computer)
 
 [(hard) Surface.js]((hard)%20Surface.js) : [Description](https://www.codingame.com/training/hard/surface)

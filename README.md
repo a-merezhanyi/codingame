@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(hard) Genome Sequencing.js]((hard)%20Genome%20Sequencing.js) : [Description](https://www.codingame.com/training/hard/genome-sequencing)
+
 [(hard) Roller Coaster.js]((hard)%20Roller%20Coaster.js) : [Description](https://www.codingame.com/training/hard/roller-coaster)
 
 [(hard) Skynet Revolution - Episode 2.js]((hard)%20Skynet%20Revolution%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/hard/skynet-revolution-episode-2)

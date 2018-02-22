@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(hard) CGX Formatter.js]((hard)%20CGX%20Formatter.js) : [Description](https://www.codingame.com/training/hard/cgx-formatter)
+
 [(hard) Genome Sequencing.js]((hard)%20Genome%20Sequencing.js) : [Description](https://www.codingame.com/training/hard/genome-sequencing)
 
 [(hard) Roller Coaster.js]((hard)%20Roller%20Coaster.js) : [Description](https://www.codingame.com/training/hard/roller-coaster)

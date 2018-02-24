@@ -3,6 +3,8 @@ My solutions for https://www.codingame.com
 
 Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57Ipyf-nv1m51bIg
 
+[(hard) Bender - Episode 3.js]((hard)%20Bender%20-%20Episode%203.js) : [Description](https://www.codingame.com/training/hard/bender-episode-3)
+
 [(hard) CGX Formatter.js]((hard)%20CGX%20Formatter.js) : [Description](https://www.codingame.com/training/hard/cgx-formatter)
 
 [(hard) Genome Sequencing.js]((hard)%20Genome%20Sequencing.js) : [Description](https://www.codingame.com/training/hard/genome-sequencing)

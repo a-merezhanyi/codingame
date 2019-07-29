@@ -19,7 +19,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(hard) Surface.js]((hard)%20Surface.js) : [Description](https://www.codingame.com/training/hard/surface)
 
-[(hard) TAN Network.js]((hard)%20TAN%20Network.js) : [Description](https://www.codingame.com/training/hard/tan-network)
+[(hard) TAN Network.js]((hard)%20TAN%20Network.js) : [Description](https://www.codingame.com/training/hard/tan-network) - [Video Tutorial](https://www.youtube.com/watch?v=xmJUXmYW1E8)
 
 [(hard) The Bridge.js]((hard)%20The%20Bridge.js) : [Description](https://www.codingame.com/training/hard/the-bridge-episode-2)
 

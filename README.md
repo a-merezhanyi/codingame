@@ -57,7 +57,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Don't Panic - Episode 1.js]((medium)%20Don't%20Panic%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/don't-panic-episode-1) - [Video Tutorial](https://www.youtube.com/watch?v=E083Fedoujw)
 
-[(medium) There is no Spoon - Episode 1.js]((medium)%20There%20is%20no%20Spoon%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1)
+[(medium) There is no Spoon - Episode 1.js]((medium)%20There%20is%20no%20Spoon%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1) - [Video Tutorial](https://www.youtube.com/watch?v=mufE3ngQBhI)
 
 [(easy) MIME Type.js]((easy)%20MIME%20Type.js) : [Description](https://www.codingame.com/training/easy/mime-type) - [Video Tutorial](https://www.youtube.com/watch?v=k2GjkoLudTU)
 

@@ -49,7 +49,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Stock Exchange Losses.js]((medium)%20Stock%20Exchange%20Losses.js) : [Description](https://www.codingame.com/training/medium/stock-exchange-losses)
 
-[(medium) Scrabble.js]((medium)%20Scrabble.js) : [Description](https://www.codingame.com/training/medium/scrabble)
+[(medium) Scrabble.js]((medium)%20Scrabble.js) : [Description](https://www.codingame.com/training/medium/scrabble) - [Video Tutorial](https://www.youtube.com/watch?v=bf3xMnwWsZ4)
 
 [(medium) Mars Lander - Episode 2.js]((medium)%20Mars%20Lander%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/medium/mars-lander-episode-2) - [Video Tutorial](https://www.youtube.com/watch?v=CrXu7JfDZlI)
 

@@ -47,7 +47,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Shadows of the Knight - Episode 1.js]((medium)%20Shadows%20of%20the%20Knight%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1)
 
-[(medium) Stock Exchange Losses.js]((medium)%20Stock%20Exchange%20Losses.js) : [Description](https://www.codingame.com/training/medium/stock-exchange-losses)
+[(medium) Stock Exchange Losses.js]((medium)%20Stock%20Exchange%20Losses.js) : [Description](https://www.codingame.com/training/medium/stock-exchange-losses) - [Video Tutorial](https://www.youtube.com/watch?v=X_1lOzjbs7M)
 
 [(medium) Scrabble.js]((medium)%20Scrabble.js) : [Description](https://www.codingame.com/training/medium/scrabble) - [Video Tutorial](https://www.youtube.com/watch?v=bf3xMnwWsZ4)
 

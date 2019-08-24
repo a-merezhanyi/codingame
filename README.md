@@ -43,7 +43,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Telephone Numbers.js]((medium)%20Telephone%20Numbers.js) : [Description](https://www.codingame.com/training/medium/telephone-numbers)
 
-[(medium) Conway sequence.js]((medium)%20%20Conway%20sequence.js) : [Description](https://www.codingame.com/training/medium/conway-sequence)
+[(medium) Conway sequence.js]((medium)%20%20Conway%20sequence.js) : [Description](https://www.codingame.com/training/medium/conway-sequence) - [Video Tutorial](https://www.youtube.com/watch?v=smz22PMPL5k)
 
 [(medium) Shadows of the Knight - Episode 1.js]((medium)%20Shadows%20of%20the%20Knight%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1) - [Video Tutorial](https://www.youtube.com/watch?v=LzUKpADnmNM)
 

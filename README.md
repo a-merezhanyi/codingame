@@ -31,8 +31,6 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Dwarfs standing on the shoulders of giants.js]((medium)%20Dwarfs%20standing%20on%20the%20shoulders%20of%20giants.js) : [Description](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants)
 
-[(medium) Telephone Numbers.js]((medium)%20Telephone%20Numbers.js) : [Description](https://www.codingame.com/training/medium/telephone-numbers)
-
 [(medium) Mayan Calculation.js]((medium)%20Mayan%20Calculation.js) : [Description](https://www.codingame.com/training/medium/mayan-calculation)
 
 [(medium) Skynet Revolution - Episode 1.js]((medium)%20Skynet%20Revolution%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/skynet-revolution-episode-1/)
@@ -41,7 +39,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) War - winamax battle.js]((medium)%20War%20-%20winamax%20battle.js) : [Description](https://www.codingame.com/training/medium/winamax-battle)
 
-[(medium) Telephone Numbers.js]((medium)%20Telephone%20Numbers.js) : [Description](https://www.codingame.com/training/medium/telephone-numbers)
+[(medium) Telephone Numbers.js]((medium)%20Telephone%20Numbers.js) : [Description](https://www.codingame.com/training/medium/telephone-numbers) - [Video Tutorial](https://www.youtube.com/watch?v=6mpe71VBDww)
 
 [(medium) Conway sequence.js]((medium)%20%20Conway%20sequence.js) : [Description](https://www.codingame.com/training/medium/conway-sequence) - [Video Tutorial](https://www.youtube.com/watch?v=smz22PMPL5k)
 

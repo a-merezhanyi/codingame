@@ -37,7 +37,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) The Gift.js]((medium)%20The%20Gift.js) : [Description](https://www.codingame.com/training/medium/the-gift)
 
-[(medium) War - winamax battle.js]((medium)%20War%20-%20winamax%20battle.js) : [Description](https://www.codingame.com/training/medium/winamax-battle)
+[(medium) War - winamax battle.js]((medium)%20War%20-%20winamax%20battle.js) : [Description](https://www.codingame.com/training/medium/winamax-battle) - [Video Tutorial](https://www.youtube.com/watch?v=5AXQVqJeQzc)
 
 [(medium) Telephone Numbers.js]((medium)%20Telephone%20Numbers.js) : [Description](https://www.codingame.com/training/medium/telephone-numbers) - [Video Tutorial](https://www.youtube.com/watch?v=6mpe71VBDww)
 

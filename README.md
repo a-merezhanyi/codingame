@@ -35,7 +35,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Skynet Revolution - Episode 1.js]((medium)%20Skynet%20Revolution%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/skynet-revolution-episode-1/)
 
-[(medium) The Gift.js]((medium)%20The%20Gift.js) : [Description](https://www.codingame.com/training/medium/the-gift)
+[(medium) The Gift.js]((medium)%20The%20Gift.js) : [Description](https://www.codingame.com/training/medium/the-gift) - [Video Tutorial](https://www.youtube.com/watch?v=PZAt5xLpdlY)
 
 [(medium) War - winamax battle.js]((medium)%20War%20-%20winamax%20battle.js) : [Description](https://www.codingame.com/training/medium/winamax-battle) - [Video Tutorial](https://www.youtube.com/watch?v=5AXQVqJeQzc)
 

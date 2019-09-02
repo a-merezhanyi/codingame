@@ -33,7 +33,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Mayan Calculation.js]((medium)%20Mayan%20Calculation.js) : [Description](https://www.codingame.com/training/medium/mayan-calculation)
 
-[(medium) Skynet Revolution - Episode 1.js]((medium)%20Skynet%20Revolution%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/skynet-revolution-episode-1/)
+[(medium) Skynet Revolution - Episode 1.js]((medium)%20Skynet%20Revolution%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/skynet-revolution-episode-1/) - [Video Tutorial](https://www.youtube.com/watch?v=CWit4Ne8-3w)
 
 [(medium) The Gift.js]((medium)%20The%20Gift.js) : [Description](https://www.codingame.com/training/medium/the-gift) - [Video Tutorial](https://www.youtube.com/watch?v=PZAt5xLpdlY)
 

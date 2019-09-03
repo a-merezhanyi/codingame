@@ -31,7 +31,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(medium) Dwarfs standing on the shoulders of giants.js]((medium)%20Dwarfs%20standing%20on%20the%20shoulders%20of%20giants.js) : [Description](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants)
 
-[(medium) Mayan Calculation.js]((medium)%20Mayan%20Calculation.js) : [Description](https://www.codingame.com/training/medium/mayan-calculation)
+[(medium) Mayan Calculation.js]((medium)%20Mayan%20Calculation.js) : [Description](https://www.codingame.com/training/medium/mayan-calculation) - [Video Tutorial](https://www.youtube.com/watch?v=qfCf2kGzSig)
 
 [(medium) Skynet Revolution - Episode 1.js]((medium)%20Skynet%20Revolution%20-%20Episode%201.js) : [Description](https://www.codingame.com/training/medium/skynet-revolution-episode-1/) - [Video Tutorial](https://www.youtube.com/watch?v=CWit4Ne8-3w)
 

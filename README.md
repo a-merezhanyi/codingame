@@ -21,7 +21,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(hard) TAN Network.js]((hard)%20TAN%20Network.js) : [Description](https://www.codingame.com/training/hard/tan-network) - [Video Tutorial](https://www.youtube.com/watch?v=xmJUXmYW1E8)
 
-[(hard) The Bridge.js]((hard)%20The%20Bridge.js) : [Description](https://www.codingame.com/training/hard/the-bridge-episode-2)
+[(hard) The Bridge.js]((hard)%20The%20Bridge.js) : [Description](https://www.codingame.com/training/hard/the-bridge-episode-2) - [Video Tutorial](https://www.youtube.com/watch?v=-jqXjzULPRY)
 
 [(hard) The Last Crusade - Episode 2.js]((hard)%20The%20Last%20Crusade%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/hard/the-last-crusade-episode-2) - [Video Tutorial](https://www.youtube.com/watch?v=Yn8SwnFAAlE)
 

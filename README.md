@@ -17,7 +17,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(hard) Super Computer.js]((hard)%20Super%20Computer.js) : [Description](https://www.codingame.com/training/hard/super-computer)
 
-[(hard) Surface.js]((hard)%20Surface.js) : [Description](https://www.codingame.com/training/hard/surface)
+[(hard) Surface.js]((hard)%20Surface.js) : [Description](https://www.codingame.com/training/hard/surface) - [Video Tutorial](https://www.youtube.com/watch?v=aRJixzy_BFM)
 
 [(hard) TAN Network.js]((hard)%20TAN%20Network.js) : [Description](https://www.codingame.com/training/hard/tan-network) - [Video Tutorial](https://www.youtube.com/watch?v=xmJUXmYW1E8)
 

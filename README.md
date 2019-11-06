@@ -11,7 +11,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(hard) Genome Sequencing.js]((hard)%20Genome%20Sequencing.js) : [Description](https://www.codingame.com/training/hard/genome-sequencing)
 
-[(hard) Roller Coaster.js]((hard)%20Roller%20Coaster.js) : [Description](https://www.codingame.com/training/hard/roller-coaster)
+[(hard) Roller Coaster.js]((hard)%20Roller%20Coaster.js) : [Description](https://www.codingame.com/training/hard/roller-coaster) - [Video Tutorial](https://www.youtube.com/watch?v=o5nyRiNZVKg)
 
 [(hard) Skynet Revolution - Episode 2.js]((hard)%20Skynet%20Revolution%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/hard/skynet-revolution-episode-2) - [Video Tutorial](https://www.youtube.com/watch?v=4e5MW6TQ22I)
 

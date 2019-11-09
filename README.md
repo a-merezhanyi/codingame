@@ -9,7 +9,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(hard) CGX Formatter.js]((hard)%20CGX%20Formatter.js) : [Description](https://www.codingame.com/training/hard/cgx-formatter)
 
-[(hard) Genome Sequencing.js]((hard)%20Genome%20Sequencing.js) : [Description](https://www.codingame.com/training/hard/genome-sequencing)
+[(hard) Genome Sequencing.js]((hard)%20Genome%20Sequencing.js) : [Description](https://www.codingame.com/training/hard/genome-sequencing) - [Video Tutorial](https://www.youtube.com/watch?v=rvdw3C0-c0c)
 
 [(hard) Roller Coaster.js]((hard)%20Roller%20Coaster.js) : [Description](https://www.codingame.com/training/hard/roller-coaster) - [Video Tutorial](https://www.youtube.com/watch?v=o5nyRiNZVKg)
 

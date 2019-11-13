@@ -7,7 +7,7 @@ Playlist: https://www.youtube.com/watch?v=_QTh8AQzYqw&list=PLEZfD_aygfgKcpJDU57I
 
 [(hard) Bender - Episode 2.js]((hard)%20Bender%20-%20Episode%202.js) : [Description](https://www.codingame.com/training/hard/bender-episode-2)
 
-[(hard) CGX Formatter.js]((hard)%20CGX%20Formatter.js) : [Description](https://www.codingame.com/training/hard/cgx-formatter)
+[(hard) CGX Formatter.js]((hard)%20CGX%20Formatter.js) : [Description](https://www.codingame.com/training/hard/cgx-formatter) - [Video Tutorial](https://www.youtube.com/watch?v=9-D20ZSVYEQ)
 
 [(hard) Genome Sequencing.js]((hard)%20Genome%20Sequencing.js) : [Description](https://www.codingame.com/training/hard/genome-sequencing) - [Video Tutorial](https://www.youtube.com/watch?v=rvdw3C0-c0c)
 
